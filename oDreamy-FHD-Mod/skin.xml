@@ -807,7 +807,7 @@
 		<widget source="session.CurrentService" render="Label" position="735,70" size="250,26" font="Regular;23" halign="center" foregroundColor="yellow" backgroundColor="black" transparent="1" zPosition="3">
 			<convert type="EGExtraInfo">E-C-N</convert>
 		</widget>
- 		<widget source="session.CurrentService" render="Label" position="1051,40" size="250,26" font="Regular;23" halign="center" foregroundColor="green" backgroundColor="header" transparent="1" zPosition="3">
+ 		<widget source="session.CurrentService" render="Label" position="1053,42" size="250,26" font="Regular;22" halign="center" foregroundColor="green" backgroundColor="header" transparent="1" zPosition="3">
 			<convert type="EGExtraInfo">CamName</convert>
 		</widget>
 		<!-- Cam Name  -->
@@ -963,7 +963,7 @@
 	  <widget source="session.CurrentService" render="Label" position="800,43" size="120,25" font="Regular; 20" halign="center" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="2" noWrap="1">
             <convert type="EGNetSpeedInfo">NET_TYP</convert>
 	  </widget>
-	  <widget source="session.CurrentService" render="Label" position="840,40" size="336,56" font="Regular;27" halign="center" foregroundColor="red" backgroundColor="header" transparent="1">
+	  <widget source="session.CurrentService" render="Label" position="820,42" size="336,56" font="Regular;22" halign="center" foregroundColor="red" backgroundColor="header" transparent="1">
           <convert type="EGNetSpeedInfo">RC_MB</convert>
 	  </widget>
 	</screen>	<!-- External Files FHD -->
